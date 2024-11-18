@@ -19,3 +19,13 @@ Additionally, we collect data for the following major stocks:
 - NVIDIA (NVDA)
 
 The dataset spans from January 1, 2014, to September 15, 2024
+
+### EDA
+Exploratory Data Analysis was done to understand the trends in price data and the correlation between different forex currency pairs.
+
+### Model Fitting
+3 Machine (deep) learning models were fit on the historical dataset (Prophet model, Xgboost model and CNN-LSTM hybrid model)
+
+### Model Evaluation and Backesting
+Model performance was evaluated using RSME and MAE statistical metrics. Back Testin was also conducted on the historical data to ascertain the performance of CNN-LSTM model which was the best performing model
+
